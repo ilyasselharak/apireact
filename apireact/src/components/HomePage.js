@@ -1,10 +1,10 @@
 import React from 'react'
 import Search from './Search'
 
-function HomePage({character}) {
+function HomePage({character,fun}) {
   return (
     <div className='home'>
-        <Search/>
+        <Search fun={fun}/>
         <h1>Main Characters</h1>
         <div className='characters-container'>
           <div className='grid'>

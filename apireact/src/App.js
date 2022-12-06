@@ -24,7 +24,7 @@ function App() {
       <Header />
       <Routes>
         <Route element={<About/>} path='/about'/>
-        <Route path="/" element={<HomePage character={character}/>}/>
+        <Route path="/" element={<HomePage character={character} fun={setcharacter}/>}/>
         <Route path="/detail/:characterId" element={<Detail/>}/>
       </Routes>
 
